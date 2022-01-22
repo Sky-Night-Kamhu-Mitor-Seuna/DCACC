@@ -9,5 +9,5 @@ function corventSnowflakeIDs(id){
 
 	let timestampCorrect = (timestampDecimalMS+DiscordEpochMS);
 
-	return new Date(timestampCorrect).toUTCString();
+	return new Date(timestampCorrect).toLocaleString();
 }

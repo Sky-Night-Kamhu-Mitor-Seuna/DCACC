@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<script src="./main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script>
+		function result(ids){
+			alert(corventSnowflakeIDs(ids));
+		}
+	</script>
+</head>
+    <body>
+		<form name="theForm" method="GET" action="" onsubmit="result(this.ids.value);return false;">
+			<input type="number" id="ids" name="ids" placeholder="ID" />
+			<input type="submit" />
+		</form>
+    </body>
+</html>
