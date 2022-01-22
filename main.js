@@ -1,4 +1,4 @@
-function corventUserID(id){
+function corventSnowflakeIDs(id){
 	if(isNaN(id)) return false;
 
 	const DiscordEpochMS = 1420070400000;
